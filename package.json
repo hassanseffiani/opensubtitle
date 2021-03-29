@@ -1,0 +1,23 @@
+{
+  "name": "opensubtitle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "nodemon": "^2.0.7",
+    "opensubtitles-api": "^5.1.2",
+    "opensubtitles-universal-api": "^1.2.0",
+    "path": "^0.12.7",
+    "yifysubtitles": "^2.1.5",
+    "yifysubtitles-api": "^1.0.0",
+    "ytssubs": "^1.0.2"
+  }
+}
